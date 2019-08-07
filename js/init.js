@@ -18,4 +18,13 @@ $(document).ready(function() {
 
   // Init Dropdown
   $(".dropdown-trigger").dropdown();
+
+  // Init FAB
+  $(document).ready(function() {
+    $(".fixed-action-btn").floatingActionButton();
+  });
+
+  $(".fixed-action-btn").floatingActionButton({
+    toolbarEnabled: true
+  });
 });

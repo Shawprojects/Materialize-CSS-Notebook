@@ -4,116 +4,121 @@
     <section>
         <div class="container">
           <h3 class="center brown-text">Collections & Badges</h3>
+          <div class="divider"></div>
           
           <!-- START HERE -->
 
           <!-- COLLECTION -->
-          <ul>
-            <li>First Item</li>
-            <li>Second Item</li>
-            <li>Third Item</li>
-            <li>Fourth Item</li>
-          </ul>
+          <div class="buttons_icons">
+              <ul class="collection">
+                <li class="collection-item">First Item</li>
+                <li class="collection-item">Second Item</li>
+                <li class="collection-item">Third Item</li>
+                <li class="collection-item">Fourth Item</li>
+              </ul>
+          </div>
 
           <!-- COLLECTION AS LINKS -->
-          <div>
-            <a href="#">First Item</a>
-            <a href="#">Second Item</a>
-            <a href="#">Third Item</a>
-            <a href="#">Fourth Item</a>
-            <!-- BADGES -->
-            <a href="#!">
-              <span>44</span>Fifth Item</a>
-            <a href="#!">
-              <span>3</span>Sixth Item</a>
+          <div class="buttons_icons">
+              <div class="collection">
+                  <a href="#!" class="collection-item">First Item</a>
+                  <a href="#!" class="collection-item">Second Item</a>
+                  <a href="#!" class="collection-item">Third Item</a>
+                  <a href="#!" class="collection-item">Fourth Item</a>
+                  <!-- BADGES -->
+                  <a href="#!" class="collection-item">
+                    <span class="badge">44</span>Fifth Item</a>
+                  <a href="#!" class="collection-item">
+                    <span class="badge new">3</span>Sixth Item</a>
+              </div>
           </div>
 
           <!-- WITH HEADER -->
-          <ul>
-            <li>
+          <ul class="collection with-header">
+            <li class="collection-header">
               <h4>Items</h4>
             </li>
-            <li>First Item</li>
-            <li>Second Item</li>
-            <li>Third Item</li>
-            <li>Fourth Item</li>
+            <li class="collection-item">First Item</li>
+            <li class="collection-item">Second Item</li>
+            <li class="collection-item">Third Item</li>
+            <li class="collection-item">Fourth Item</li>
           </ul>
 
           <!-- SECONDARY CONTENT -->
-          <ul>
-            <li>
+          <ul class="collection with-header">
+            <li class="collection-header">
               <h4>Items</h4>
             </li>
-            <li>
+            <li class="collection-item">
               <div>First Item
-                <a href="#">
-                  <i>/i>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">close</i>
                 </a>
               </div>
             </li>
-            <li>
+            <li class="collection-item">
               <div>Second Item
-                <a href="#">
-                  <i></i>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">close</i>
                 </a>
               </div>
             </li>
-            <li>
+            <li class="collection-item">
               <div>Third Item
-                <a href="#">
-                  <i></i>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">close</i>
                 </a>
               </div>
             </li>
-            <li>
-              <div>Fourth Item
-                <a href="#">
-                  <i></i>
+            <li class="collection-item">
+              <div>Four Item
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">close</i>
                 </a>
               </div>
             </li>
           </ul>
 
           <!-- AVATAR CONTENT -->
-          <ul>
-            <li>
-              <i></i>
-              <span>John Doe</span>
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons blue circle">contacts</i>
+              <span class="title">John Doe</span>
               <p>jdoe@gmail.com
                 <br> 555-555-5555
               </p>
-              <a href="#">
-                <i></i>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
               </a>
             </li>
-            <li>
-              <i></i>
-              <span>Brian Smith</span>
+            <li class="collection-item avatar">
+              <i class="material-icons blue circle">contacts</i>
+              <span class="title">Brain Smith</span>
               <p>bsmith@yahoo.com
                 <br> 444-444-4444
               </p>
-              <a href="#">
-                <i></i>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
               </a>
             </li>
-            <li>
-              <i></i>
-              <span>Jill Johnson</span>
+            <li class="collection-item avatar">
+              <i class="material-icons blue circle">contacts</i>
+              <span class="title">Jill Jhonson</span>
               <p>jill@gmail.com
                 <br> 333-333-3333
               </p>
-              <a href="#">
-                <i></i>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
               </a>
             </li>
-            <li>
-              <i></i>
-              <span>Kevin Wallace</span>
+            <li class="collection-item avatar">
+              <i class="material-icons blue circle">contacts</i>
+              <span class="title">Kevin Wallace</span>
               <p>kevin@yahoo.com
                 <br> 888-888-8888
               </p>
-              <a href="#">
-                <i></i>
+              <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
               </a>
             </li>
           </ul>
@@ -122,7 +127,11 @@
 
 
           <!-- END HERE -->
-        </div>
+
+        </div> <!-- ./container -->
+
+        <!-- MOVES CONTENT UP -->
+        <div style="margin-top: 200px;"></div>
     </section>
   </main>
 

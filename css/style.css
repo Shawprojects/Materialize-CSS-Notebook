@@ -50,6 +50,21 @@ p {
   width: 100%;
 }
 
+.color-pallet p {
+  padding: 5px;
+}
+
+.buttons_icons {
+  margin: 20px 0;
+}
+
+.row .box {
+  background: #ccc;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
 @media only screen and (max-width: 992px) {
   header,
   main,
